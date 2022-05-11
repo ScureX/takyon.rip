@@ -7,8 +7,8 @@ const Kraber9K = () => {
       <div className='Trivia'>
         <div className='BlurBox'>
           <p>
-            Kraber9K is a highly movement focussed gamemode for Titanfall2, available only with the <a href='https://northstar.tf' target="_blank">Northstar Client</a><br/>
-            It's comparable to AWP Bhop and CombatSurf in CS:GO
+            Kraber9K is a highly movement focussed gamemode for Titanfall 2, available only with the <a href='https://northstar.tf' target="_blank">Northstar Client</a><br/>
+            It's comparable to AWP Bhop and Combat Surf in CS:GO
           </p>
         </div>
       </div>
@@ -27,12 +27,12 @@ const Kraber9K = () => {
           <p>We mainly play on a server by <a href='https://karma-gaming.net' target='_blank'>Karma-Gaming</a>.</p><br/>
 
           <div className='Discord'>
-            <img src='discord-logo.png'className='Logo' width='50' height='50'/>
+            <img src='Discord-Logo-Color.svg'className='Logo' width='50' height='50'/>
             <a href='http://karma-gaming.net/go/kraber9k' target='_blank'><p className='Join' >Join the 9K-Community</p></a>
           </div>
           <br/>
           <div className='Discord'>
-            <img src='discord-logo.png'className='Logo' width='50' height='50'/>
+            <img src='Discord-Logo-Color.svg'className='Logo' width='50' height='50'/>
             <a href='http://karma-gaming.net/go/discord' target='_blank'><p className='Join' >Join the Karma-Community</p></a>
           </div>
           

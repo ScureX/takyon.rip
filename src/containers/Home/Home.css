@@ -3,6 +3,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 10px;
+
+
 }
 
 .BlurBox {
@@ -14,9 +17,7 @@
     z-index: 1;
     background: inherit;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.1);
 }
-
 .BlurBox:before {
     content: '';
     position: absolute;
