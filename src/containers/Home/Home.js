@@ -1,38 +1,22 @@
 import React from 'react'
 import './Home.css';
-import Particles from 'react-tsparticles';
-import particlesOptions from "../../particles.json"
-import { useCallback } from 'react';
-import { loadFull } from "tsparticles";
-import { isMobile } from "react-device-detect";
 import { Kraber9K } from "../index";
+import Prtcl from './Prtcl';
+import Wallpaper from './Wallpaper';
 
 const Home = () => {
-
-  const particlesInit = useCallback(main => {
-    if(!isMobile){
-      loadFull(main);
-    }
-  }, [])
-
-  function moreButton(){
-    document.getElementById("MainText").classList.add('shrink');
-    document.getElementById("morebutton").style.animationDelay=("0s")
-    document.getElementById("morebutton").style.animationName=("title_fadeout")
-    document.body.style.overflow="auto"
-}
-
 
   return (
     <div className='All'>
       <div className='Home'>
-        <Particles id='tsparticles' options={particlesOptions} init={particlesInit}/>
-        
+
+        <Prtcl/>
+
         <div className='MainText' scroll>
           <h1>Takyon</h1>
           <h2>/</h2>
 
-          <div className='wallpaper'/>
+          <Wallpaper/>
           
           <div className="grid-titelbar">
             <div className="grid-item">
@@ -69,8 +53,7 @@ const Home = () => {
           <p id='underConstruction'>SITE UNDER CONSTRUCTION</p>
       </div>
     </div>
-    
-  )
+  );
 }
 
-export default Home
+export default Home;

@@ -3,12 +3,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
-}
-/* Optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
 }
 
 .All {
@@ -16,6 +11,7 @@ html {
     flex-direction: column;
     height: auto;
     width: auto;
+    min-width: 915px;
 }
 
 .Content {
@@ -36,13 +32,14 @@ html {
     background-attachment: fixed;
 }
 
-
 #underConstruction {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 8vh;
+    font-size: 8vw;
     color: white;
     height: auto;
     width: auto;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .Home {
@@ -77,11 +74,19 @@ h2 {
     filter: brightness(0.98);
 }
 
-.wallpaper {
+.animated {
     background: url('/public/HomeBackground.gif');
+}
+
+.still {
+    background: url('/public/HomeBackgroundStill.gif');
+}
+
+.wallpaper {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+
 
     mix-blend-mode: color-burn;
     min-width: 100vw;
@@ -97,8 +102,8 @@ h2 {
     content: "";
     position: absolute;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     backdrop-filter: blur(8px); /* apply the blur */
     pointer-events: none; /* make the overlay click-through */
 }
@@ -178,7 +183,7 @@ h2 {
 #tsparticles {
     position: fixed;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     margin: 0;
     padding: 0;
     left: 0;
