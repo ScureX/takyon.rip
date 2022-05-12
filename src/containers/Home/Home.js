@@ -12,7 +12,8 @@ const Home = () => {
 
   return (
     <div className='Home'>
-      <Particles options={particlesOptions} init={particlesInit}/>
+      <Particles id='tsparticles' options={particlesOptions} init={particlesInit}/>
+      
       <div className='MainText'>
         <h1>Takyon</h1>
         <h2>/</h2>

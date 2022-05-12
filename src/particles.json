@@ -4,7 +4,9 @@
         "value": "transparent"
       }
     },
+
     "fpsLimit": 60,
+
     "interactivity": {
       "events": {
         "onClick": {
@@ -27,6 +29,7 @@
         }
       }
     },
+
     "particles": {
       "color": {
         "value": "#ffffff"
@@ -39,21 +42,23 @@
         "width": 1
       },
       "collisions": {
-        "enable": true
+        "enable": true,
+        "mode": "bounce"
       },
       "move": {
         "direction": "none",
         "enable": true,
-        "random": false,
+        "random": true,
         "speed": 3,
-        "straight": false
+        "straight": false,
+        "out_mode": "out"
       },
       "number": {
         "density": {
           "enable": true,
           "value_area": 800
         },
-        "value": 80
+        "value": 100
       },
       "opacity": {
         "value": 0.2
@@ -66,5 +71,6 @@
         "value": 5
       }
     },
+
     "detectRetina": true
   }
