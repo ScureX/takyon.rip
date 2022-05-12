@@ -5,8 +5,7 @@ import {Navbar, Footer} from './components';
 
 function App() {
   return (
-    <>
-      <Navbar/>
+    <div className='Filter'>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Kraber9K' element={<Kraber9K/>}/>
@@ -14,7 +13,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='*' element={<Home/>}/>
       </Routes>
-    </>
+    </div>
   );
 }
 
