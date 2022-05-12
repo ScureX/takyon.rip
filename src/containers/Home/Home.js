@@ -15,7 +15,10 @@ const Home = () => {
       <Particles options={particlesOptions} init={particlesInit}/>
       <div className='MainText'>
         <h1>Takyon</h1>
-        <h2 id='slash'>/</h2>
+        <h2>/</h2>
+
+        <div className='wallpaper'/>
+        
         <div className="grid-titelbar">
           <div className="grid-item">
             <a href='https://github.com/ScureX' className="grid-item">

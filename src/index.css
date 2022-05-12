@@ -3,13 +3,3 @@
   width: 100%;
   margin: 0;
 }
-
-#root {
-  background: url("/public/HomeBackground.gif");
-  background-attachment: fixed; 
-  background-size: cover;
-  height: 100vh;
-  margin: 0%;
-  display: grid;
-  mix-blend-mode: exclusion;
-}
