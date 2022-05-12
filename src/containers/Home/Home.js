@@ -4,10 +4,14 @@ import Particles from 'react-tsparticles';
 import particlesOptions from "../../particles.json"
 import { useCallback } from 'react';
 import { loadFull } from "tsparticles";
+import { isMobile } from "react-device-detect";
+
 const Home = () => {
 
   const particlesInit = useCallback(main => {
-    loadFull(main);
+    if(!isMobile){
+      loadFull(main);
+    }
   }, [])
 
   return (

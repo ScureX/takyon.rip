@@ -117,8 +117,7 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-    .particles-container,
     #tsparticles {
-      display: none;
+        display: none;
     }
-  }
+}
