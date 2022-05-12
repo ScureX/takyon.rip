@@ -1,0 +1,75 @@
+.About {
+    height: auto;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+    align-items: center;
+    padding: 2vh;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+#codeBlock {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    border-left: 5px solid whitesmoke;
+    background-color: rgb(18, 18, 19);
+
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 2vh;
+}
+
+#code {
+    height: auto;
+    width: auto;
+    border-left: 1px dashed whitesmoke;
+    margin-left: 20px;
+}
+
+#code-smaller-inline
+{
+    height: auto;
+    width: auto;
+    border-left: 1px dashed whitesmoke;
+    margin-left: 20px;
+    margin-left:4px!important;
+}
+
+#darkBlue {
+    height: auto;
+    width: auto;
+    color: rgb(33, 83, 248);
+}
+
+#lightBlue {
+    height: auto;
+    width: auto;
+    color: rgb(19, 129, 231);
+}
+
+#red {
+    height: auto;
+    width: auto;
+    color: red;
+}
+
+#yellow {
+    height: auto;
+    width: auto;
+    color: yellow;
+}
+
+#lightGreen{
+    height: auto;
+    width: auto;
+    color: rgb(12, 209, 12);
+}

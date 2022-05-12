@@ -3,6 +3,7 @@ import './Home.css';
 import { Kraber9K } from "../index";
 import Prtcl from './Prtcl';
 import Wallpaper from './Wallpaper';
+import About from '../About/About';
 
 const Home = () => {
 
@@ -51,6 +52,7 @@ const Home = () => {
 
       <div id='Content' className='Content'>
           <p id='underConstruction'>SITE UNDER CONSTRUCTION</p>
+          <About/>
       </div>
     </div>
   );

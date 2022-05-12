@@ -3,6 +3,7 @@ html {
 }
 
 ::-webkit-scrollbar {
+    width: 0;
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
@@ -12,34 +13,6 @@ html {
     height: auto;
     width: auto;
     min-width: 915px;
-}
-
-.Content {
-    position: relative;
-    align-self: auto;
-
-    height: 100vh; /*auto*/
-    width: auto;
-
-    display: flex;
-    flex-direction: row;
-
-    justify-content: center;
-    align-items: center;
-
-    background-color: rgb(34, 34, 36);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#underConstruction {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 8vw;
-    color: white;
-    height: auto;
-    width: auto;
-    flex-wrap: wrap;
-    text-align: center;
 }
 
 .Home {
@@ -121,16 +94,6 @@ h2 {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
-
-    /*background: url("/public/HomeBackground.gif");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: left 0% bottom 100%;
-    -moz-background-clip: text;
-    -webkit-background-clip: text;
-	background-clip: text;
-    color: transparent;*/
 }
 
 .grid-titelbar {
@@ -142,7 +105,7 @@ h2 {
     justify-content: center;
     width: auto;
     height: auto;
-    margin-top: 18px;
+    margin-top: 30px;
     padding-inline: 2%;
 }
 
@@ -189,4 +152,46 @@ h2 {
     left: 0;
     top: 0;
     z-index: -1;
+}
+
+/* Content */
+
+.Content {
+    position: relative;
+    align-self: auto;
+
+    height: 100vh; /*auto*/
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+
+    align-items: center;
+
+    background-color: rgb(34, 34, 36);
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+}
+
+#contentBox {
+    border-radius: 1vw;
+    background-color: rgb(26, 26, 27);
+    height: auto;
+    width: 90%;
+    text-align: center;
+}
+
+#underConstruction {
+    margin-top: 2vh;
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    font-size: 7.8vw;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    text-align: center;
 }
