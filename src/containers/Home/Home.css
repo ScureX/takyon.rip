@@ -27,25 +27,27 @@ html {
 }
 
 h1 {
-    left: calc(50% - 500px);
-    font-size: 7vw;
-    height: auto;
-    width: auto;
-    filter: contrast(2);
-    filter: brightness(0.98);
+    left: calc(50% - 500px)!important;
+    font-size: 7vw!important;
+    height: auto!important;
+    width: auto!important;
+    filter: contrast(2)!important;
+    filter: brightness(0.98)!important;
 }
 
 h2 {
-    font-size: 13vw;
-    height: auto;
-    width: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-bottom: 15px;
-    display: block;
-    filter: contrast(2);
-    filter: brightness(0.98);
+    font-size: 13vw!important;
+    height: auto!important;
+    width: auto!important;
+    padding-left: 5%!important;
+    padding-right: 5%!important;
+    margin-bottom: 15px!important;
+    display: block!important;
+    filter: contrast(2)!important;
+    filter: brightness(0.98)!important;
 }
+
+/* wallpaper */
 
 .animated {
     background: url('/public/HomeBackground.gif');
@@ -81,6 +83,8 @@ h2 {
     pointer-events: none; /* make the overlay click-through */
 }
 
+/* Main text & socials */
+
 .MainText {
     display: flex;
     align-items: center;
@@ -88,7 +92,7 @@ h2 {
     vertical-align: middle;
     height: auto;
     
-    padding-top: 40vh;
+    padding-top: 35vh;
 
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
@@ -124,6 +128,8 @@ h2 {
     mix-blend-mode: overlay;
 }
 
+/* see more button */
+
 .seeMore {
     height: auto;
     width: auto;
@@ -143,6 +149,8 @@ h2 {
     fill: rgb(235, 52, 97);
 }
 
+/* particles */
+
 #tsparticles {
     position: fixed;
     height: 100vh;
@@ -160,12 +168,15 @@ h2 {
     position: relative;
     align-self: auto;
 
-    height: 100vh; /*auto*/
+    height: auto; /*auto*/
     width: auto;
 
     display: flex;
     flex-direction: column;
     gap: 4vh;
+
+    padding-bottom: 2vh;
+    padding-top: 2vh;
 
     align-items: center;
 
@@ -186,7 +197,6 @@ h2 {
 }
 
 #underConstruction {
-    margin-top: 2vh;
     border-top: 5px solid whitesmoke;
     border-bottom: 5px solid whitesmoke;
     font-size: 7.8vw;
