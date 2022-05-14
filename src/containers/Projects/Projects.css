@@ -1,0 +1,33 @@
+.Projects {
+    height: auto;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 2vw;
+
+    align-items: center;
+    padding: 2vw;
+}
+
+h1 {
+    font-size: 3vw !important;
+}
+
+.ProjectsContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.Project {
+    height: auto;
+    width: auto;
+}
+
+.ProjectImage {
+    border-radius: 1vw;
+}

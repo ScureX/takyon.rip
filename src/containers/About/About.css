@@ -4,18 +4,19 @@
 
     display: flex;
     flex-direction: column;
-    gap: 2vh;
+    gap: 2vw;
 
     align-items: center;
-    padding: 2vh;
+    padding: 2vw;
 }
 
 h1 {
-    font-size: 3vw;
+    font-size: 3vw!important;
 }
 
 #codeBlock {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1vw;
     text-align: left;
 
     border-radius: 5px;

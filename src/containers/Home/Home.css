@@ -27,24 +27,28 @@ html {
 }
 
 h1 {
-    left: calc(50% - 500px)!important;
+    left: calc(50% - 500px);
     font-size: 7vw!important;
-    height: auto!important;
-    width: auto!important;
-    filter: contrast(2)!important;
-    filter: brightness(0.98)!important;
+    height: auto;
+    width: auto;
+    filter: contrast(2);
+    filter: brightness(0.98);
+}
+
+#name {
+    font-size: 7vw!important;
 }
 
 h2 {
     font-size: 13vw!important;
-    height: auto!important;
-    width: auto!important;
-    padding-left: 5%!important;
-    padding-right: 5%!important;
-    margin-bottom: 15px!important;
-    display: block!important;
-    filter: contrast(2)!important;
-    filter: brightness(0.98)!important;
+    height: auto;
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 15px;
+    display: block;
+    filter: contrast(2);
+    filter: brightness(0.98);
 }
 
 /* wallpaper */
@@ -192,7 +196,7 @@ h2 {
     border-radius: 1vw;
     background-color: rgb(26, 26, 27);
     height: auto;
-    width: 90%;
+    width: 90% !important;
     text-align: center;
 }
 

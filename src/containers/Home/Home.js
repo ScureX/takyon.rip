@@ -4,8 +4,15 @@ import { Kraber9K } from "../index";
 import Prtcl from './Prtcl';
 import Wallpaper from './Wallpaper';
 import About from '../About/About';
+import Videos from '../Videos/Videos';
+import Projects from '../Projects/Projects';
 
 const Home = () => {
+
+  function goToByScroll(id){
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+    return false;
+  }
 
   return (
     <div className='All'>
@@ -13,30 +20,30 @@ const Home = () => {
 
         <Prtcl/>
 
-        <div className='MainText' scroll>
-          <h1>Takyon</h1>
+        <div className='MainText'>
+          <h1 id='name'>Takyon</h1>
           <h2>/</h2>
 
           <Wallpaper/>
           
           <div className="grid-titelbar">
             <div className="grid-item">
-              <a href='https://github.com/ScureX' className="grid-item">
+              <a href='https://github.com/ScureX' target='_blank' rel="noreferrer" className="grid-item">
                 <img src='github.svg' id='social'/>
               </a>
             </div>
             <div className="grid-item">
-              <a href='https://www.youtube.com/channel/UCtCKptMaIFT7mgcMJEZGulA' className="grid-item">
+              <a href='https://www.youtube.com/channel/UCtCKptMaIFT7mgcMJEZGulA' target='_blank' rel="noreferrer" className="grid-item">
                 <img src='youtube.svg' id='social'/>
               </a>
             </div>
             <div className="grid-item">
-              <a href='https://www.tiktok.com/@takyon_scure' className="grid-item">
+              <a href='https://www.tiktok.com/@takyon_scure' target='_blank' rel="noreferrer" className="grid-item">
                 <img src='tiktok.svg' id='social'/>
               </a>
             </div>
             <div className="grid-item">
-              <a href='instagram.com/chiggynunget69/' className="grid-item">
+              <a href='instagram.com/chiggynunget69/' target='_blank' rel="noreferrer" className="grid-item">
                 <img src='instagram.svg' id='social'/>
               </a>
             </div>
@@ -51,8 +58,10 @@ const Home = () => {
       </div>
 
       <div id='Content' className='Content'>
-          <p id='underConstruction'>SITE UNDER CONSTRUCTION</p>
+          {/* <p id='underConstruction'>SITE UNDER CONSTRUCTION</p> */}
           <About/>
+          <Projects/>
+          <Videos/>
       </div>
     </div>
   );
