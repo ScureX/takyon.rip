@@ -12,11 +12,16 @@
 
 h1 {
     font-size: 3vw!important;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 #codeBlock {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1vw;
+    font-size: calc(25px + 0.2vw); 
+    
     text-align: left;
 
     border-radius: 5px;
@@ -33,7 +38,7 @@ h1 {
     height: auto;
     width: auto;
     border-left: 1px dashed whitesmoke;
-    margin-left: 20px;
+    margin-left: 36px;
 }
 
 #code-smaller-inline
@@ -41,8 +46,7 @@ h1 {
     height: auto;
     width: auto;
     border-left: 1px dashed whitesmoke;
-    margin-left: 20px;
-    margin-left:4px!important;
+    margin-left: 9px;
 }
 
 #darkBlue {

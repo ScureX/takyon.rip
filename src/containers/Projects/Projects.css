@@ -13,6 +13,10 @@
 
 h1 {
     font-size: 3vw !important;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 .ProjectsContent {
@@ -26,6 +30,13 @@ h1 {
 .Project {
     height: auto;
     width: auto;
+    transition: transform .2s;
+}
+
+.Project:hover {
+    height: auto;
+    width: auto;
+    transform: scale(1.1);
 }
 
 .ProjectImage {
