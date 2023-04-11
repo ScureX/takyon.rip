@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.css';
-import { Kraber9K } from "../index";
 import Prtcl from './Prtcl';
 import Wallpaper from './Wallpaper';
 import About from '../About/About';
@@ -43,7 +42,7 @@ const Home = () => {
               </a>
             </div>
             <div className="grid-item">
-              <a href='instagram.com/chiggynunget69/' target='_blank' rel="noreferrer" className="grid-item">
+              <a href='https://instagram.com/chiggynunget69/' target='_blank' rel="noreferrer" className="grid-item">
                 <img src='instagram.svg' id='social'/>
               </a>
             </div>
