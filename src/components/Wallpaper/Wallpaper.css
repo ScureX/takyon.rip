@@ -1,0 +1,32 @@
+.animated {
+    background: url('/public/HomeBackground.gif');
+}
+
+.still {
+    background: url('/public/HomeBackgroundStill.gif');
+}
+
+.wallpaper {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    mix-blend-mode: color-burn;
+    min-width: 100vw;
+    min-height: 100vh;
+    top: 0;
+
+    position: absolute;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.wallpaper::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(10px); /* apply the blur */
+    pointer-events: none; /* make the overlay click-through */
+}
