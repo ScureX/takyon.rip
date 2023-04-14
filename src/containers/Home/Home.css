@@ -148,6 +148,7 @@ h2 {
   height: auto;
   width: 90% !important;
   text-align: center;
+  filter: drop-shadow(5px 5px 20px black);
 }
 
 #underConstruction {
