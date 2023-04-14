@@ -1,9 +1,9 @@
 .animated {
-    background: url('/public/HomeBackground.gif');
+    background: url('/public/background/HomeBackground.gif');
 }
 
 .still {
-    background: url('/public/HomeBackgroundStill.gif');
+    background: url('/public/background/HomeBackgroundStill.gif');
 }
 
 .wallpaper {

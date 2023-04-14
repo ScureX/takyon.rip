@@ -8,23 +8,23 @@ const Projects = () => {
       <div className='ProjectsContent'>
 
         <a className='Project' href='https://github.com/ScureX/Takyon.PlayerVote' target='_blank' rel="noreferrer">
-          <img className='ProjectImage'  src='playervoteIcon.png' alt='player vote'/>
+          <img className='ProjectImage'  src='project_icon/playervoteIcon.png' alt='player vote'/>
         </a>
 
         <a className='Project' href='https://github.com/ScureX/NSModCreator' target='_blank' rel="noreferrer">
-          <img className='ProjectImage' src='nsmodcreatorIcon.png' alt='ns mod creator'/>
+          <img className='ProjectImage' src='project_icon/nsmodcreatorIcon.png' alt='ns mod creator'/>
         </a>
 
         <a className='Project' href='https://github.com/ScureX/BadCalculator' target='_blank' rel="noreferrer">
-          <img className='ProjectImage'  src='badcalculatorIcon.png' alt='bad calculator'/>
+          <img className='ProjectImage'  src='project_icon/badcalculatorIcon.png' alt='bad calculator'/>
         </a>
 
         <a className='Project' href='https://github.com/ScureX/Twitter_For' target='_blank' rel="noreferrer">
-          <img className='ProjectImage'  src='twitterforIcon.png' alt='twitter for'/>
+          <img className='ProjectImage'  src='project_icon/twitterforIcon.png' alt='twitter for'/>
         </a>
 
         <a className='Project' href='https://github.com/ScureX/AsciiTreeGenerator' target='_blank' rel="noreferrer">
-          <img className='ProjectImage'  src='treegenIcon.png'alt='tree generator'/>
+          <img className='ProjectImage'  src='project_icon/treegenIcon.png'alt='tree generator'/>
         </a>
 
       </div>
