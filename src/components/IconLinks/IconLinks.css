@@ -9,12 +9,12 @@
 }
 
 .mobile_grid-titelbar {
-  display: flex;
   column-gap: minmax(auto, 20%);
   user-select: none;
   align-items: center;
   margin-top: 30px;
   justify-content: center;
+  width: 50vw;
 }
 
 
@@ -30,6 +30,13 @@
 #social {
   padding: 0!important;
   height: 7vw;
+  mix-blend-mode: overlay;
+  filter: drop-shadow(5px 5px 20px black);
+}
+
+#mobile_social {
+  padding: 0!important;
+  height: 10vw;
   mix-blend-mode: overlay;
   filter: drop-shadow(5px 5px 20px black);
 }

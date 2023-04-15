@@ -55,7 +55,6 @@ html {
 
 #name {
   left: calc(50% - 500px);
-  font-size: 7vw !important;
   height: auto;
   width: auto;
   filter: contrast(2);
@@ -70,13 +69,12 @@ html {
 
 #mobile_name {
     left: calc(50% - 500px);
-    font-size: 7vw !important;
     height: auto;
     width: auto;
     filter: contrast(2);
     filter: brightness(0.98);
     justify-content: center;
-    font-size: 7vw !important;
+    font-size: 14vw !important;
     mix-blend-mode: overlay;
     filter: drop-shadow(5px 5px 20px black);
   }

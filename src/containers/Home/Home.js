@@ -1,10 +1,10 @@
 import React from "react";
+import { IconLinks, Wallpaper, Prtcl, GithubStats } from "../../components";
+import { isMobile } from "react-device-detect";
 import "./Home.css";
 import About from "../About/About";
-import Videos from "../Videos/Videos";
 import Projects from "../Projects/Projects";
-import { IconLinks, Wallpaper, Prtcl } from "../../components";
-import { isMobile } from "react-device-detect";
+import Videos from "../Videos/Videos";
 
 const Home = () => {
   return (
@@ -40,7 +40,7 @@ const Home = () => {
       </div>
 
       <div id="Content" className="Content">
-        {/* <p id='underConstruction'>SITE UNDER CONSTRUCTION</p> */}
+        {/* <GithubStats/> */}
         <About />
         <Projects />
         <Videos />

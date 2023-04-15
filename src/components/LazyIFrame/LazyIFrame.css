@@ -1,0 +1,13 @@
+.YtIFrame {
+    min-height: 20vw;
+    width: 40vw;
+    margin: 1vw;
+    border-radius: 1vw;
+}
+
+.mobile_YtIFrame {
+    min-height: 45vw;
+    width: 80vw;
+    margin: 1vw;
+    border-radius: 1vw;
+}
