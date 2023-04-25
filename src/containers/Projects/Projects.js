@@ -15,16 +15,20 @@ const Projects = () => {
           <img className='ProjectImage' src='project_icon/nsmodcreatorIcon.png' alt='ns mod creator'/>
         </a>
 
+        <a className='Project' href='https://github.com/ScureX/AsciiTreeGenerator' target='_blank' rel="noreferrer">
+          <img className='ProjectImage'  src='project_icon/treegenIcon.png'alt='tree generator'/>
+        </a>
+
+        <a className='Project' href='https://github.com/ScureX/CloudflareIPUpdater' target='_blank' rel="noreferrer">
+          <img className='ProjectImage' src='project_icon/cfupdatericon.png' alt='ns mod creator'/>
+        </a>
+
         <a className='Project' href='https://github.com/ScureX/BadCalculator' target='_blank' rel="noreferrer">
           <img className='ProjectImage'  src='project_icon/badcalculatorIcon.png' alt='bad calculator'/>
         </a>
 
         <a className='Project' href='https://github.com/ScureX/Twitter_For' target='_blank' rel="noreferrer">
           <img className='ProjectImage'  src='project_icon/twitterforIcon.png' alt='twitter for'/>
-        </a>
-
-        <a className='Project' href='https://github.com/ScureX/AsciiTreeGenerator' target='_blank' rel="noreferrer">
-          <img className='ProjectImage'  src='project_icon/treegenIcon.png'alt='tree generator'/>
         </a>
 
       </div>
