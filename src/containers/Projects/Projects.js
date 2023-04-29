@@ -20,7 +20,7 @@ const Projects = () => {
         </a>
 
         <a className='Project' href='https://github.com/ScureX/CloudflareIPUpdater' target='_blank' rel="noreferrer">
-          <img className='ProjectImage' src='project_icon/cfupdatericon.png' alt='ns mod creator'/>
+          <img className='ProjectImage' src='project_icon/cfupdatericon.png' alt='Cloudflare IP Updater'/>
         </a>
 
         <a className='Project' href='https://github.com/ScureX/BadCalculator' target='_blank' rel="noreferrer">
@@ -29,6 +29,10 @@ const Projects = () => {
 
         <a className='Project' href='https://github.com/ScureX/Twitter_For' target='_blank' rel="noreferrer">
           <img className='ProjectImage'  src='project_icon/twitterforIcon.png' alt='twitter for'/>
+        </a>
+
+        <a className='Project' href='https://github.com/ScureX/TwitterHideCheckmark' target='_blank' rel="noreferrer">
+          <img className='ProjectImage'  src='project_icon/thcicon.png' alt='Twitter Hide Checkmark'/>
         </a>
 
       </div>
